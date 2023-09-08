@@ -9,6 +9,11 @@
     .img-mob{
         display: none;
     }
+    .prices{
+        margin: 1rem;
+        display: flex;
+        justify-content: flex-start;
+    }
 }
 /* maximo ancho hasta version escritorio */
 @media screen and (max-width: 765px) {
@@ -31,11 +36,26 @@
     body{
         margin: 5%;
     }
+    /* .last-price{
+    
+        
+        align-items: center;
+      
+    } */
+
+    .prices {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .price-style{
+        margin-bottom: 1rem;
+    }
     main{
 
         top: 4rem;
         width:18rem ;
         grid-template-columns: 104%;
-        grid-template-rows: repeat(2, 16rem);
+        grid-template-rows: repeat(2, 18rem);
     }
 }

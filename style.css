@@ -51,28 +51,29 @@ img{
     border-top-left-radius: .5rem;
     border-bottom-left-radius:.5rem ;
     object-fit: cover;
-    height: 42vh;
+    height: 44vh;
     width: 96%;
 }
 .prices{
     display: flex;
     align-items: center;
     gap: .4rem;
+    /* margin: 1rem 0; */
 }
 .price-style{
     color: hsl(158, 49%, 33%);
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: bold;
     font-family: 'Fraunces', serif;
 }
 .last-price{
     
-   text-decoration: line-through;
-align-items: center;
+    text-decoration: line-through;
+    align-items: center;
   
 }
 .side-infoSale{
-    margin: 1rem;
+    margin: 2rem;
 }
 .description-perfume{
     font-family: 'Montserrat', sans-serif;
@@ -83,6 +84,7 @@ align-items: center;
     font-size: .7rem;
     display: flex;
     justify-content: center;
+    gap: .3rem;
     color: white;
     background-color: hsl(158, 49%, 33%);
     padding: .5rem;
