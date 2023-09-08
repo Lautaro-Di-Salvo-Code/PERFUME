@@ -47,6 +47,7 @@
         display: flex;
         align-items: center;
         justify-content: flex-start;
+        margin: .4rem;
     }
     .price-style{
         margin-bottom: 1rem;
@@ -56,6 +57,6 @@
         top: 4rem;
         width:18rem ;
         grid-template-columns: 104%;
-        grid-template-rows: repeat(2, 18rem);
+        grid-template-rows: repeat(2, 20rem);
     }
 }
