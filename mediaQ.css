@@ -1,0 +1,41 @@
+
+
+/*  minimo ancho hasta version celular */
+@media screen and (min-width: 700px) {
+    
+    .img-dsk{
+        display: inline;
+    }
+    .img-mob{
+        display: none;
+    }
+}
+/* maximo ancho hasta version escritorio */
+@media screen and (max-width: 765px) {
+    
+
+    .img-dsk{
+        display: none;
+    }
+    
+    .img-mob{
+        display: inline;
+        width: 10rem;
+        border-top-left-radius: .5rem;
+        border-top-right-radius: .5rem;
+        border-bottom-left-radius:.0 ;
+        object-fit: cover;
+        height: 42vh;
+        width: 96%;
+    }
+    body{
+        margin: 5%;
+    }
+    main{
+
+        top: 4rem;
+        width:18rem ;
+        grid-template-columns: 104%;
+        grid-template-rows: repeat(2, 16rem);
+    }
+}
