@@ -20,11 +20,17 @@ p{
     height: 16rem;
 }
 
-h1{font-weight: 900;
+h1{
+    letter-spacing: 3px;
+    font-weight: 900;
     font-size: .7rem;
     color: hsl(228, 12%, 48%)
 
     
+}
+a{
+    color: white;
+    text-decoration: none;
 }
 .title-perfume{
     font-family: 'Fraunces', serif;
@@ -51,7 +57,7 @@ img{
     border-top-left-radius: .5rem;
     border-bottom-left-radius:.5rem ;
     object-fit: cover;
-    height: 44vh;
+    height: 45vh;
     width: 96%;
 }
 .prices{
