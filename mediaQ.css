@@ -49,6 +49,15 @@
         justify-content: flex-start;
         margin: .4rem;
     }
+    .cont-2{
+        display: flex;
+        align-items: center;
+    }
+    .last-price{
+        display: flex;
+        align-items: center;
+
+    }
     .price-style{
         margin-bottom: 1rem;
     }
